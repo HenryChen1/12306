@@ -21,7 +21,7 @@ def sendServerChan(msg):
             sendServerChanUrls = urls.get("ServerChan")
             sendServerChanUrls["req_url"] += f'{secret}.send'
 
-            params = {"text": "易行购票成功通知", "desp": msg}
+            params = {"text": "嘻嘻抢到票了👌", "desp": msg}
             httpClint = HTTPClient(0)
             sendServerChanRsp = httpClint.send(sendServerChanUrls, params=params)
             if sendServerChanRsp.get("errno") == 0:
