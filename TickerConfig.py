@@ -42,7 +42,7 @@ IS_MORE_TICKET = False
 # 乘车人(list) 多个乘车人ex:
 # "张三",
 # "李四"
-TICKET_PEOPLES = ["陈翰宇","尹嘉"]
+TICKET_PEOPLES = []
 
 # 12306登录账号
 USER = ""
